@@ -3,34 +3,72 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Austin Baxter - Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Austin Baxter</h1>
-        <p>Engineering Student | Car Enthusiest | Jack Of All Trades</p>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Engineering Student | Developer | Problem Solver</p>
+        </div>
     </header>
-    <section>
+
+    <nav>
+        <div class="container">
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Write a short paragraph about yourself here.</p>
+        <p>Write a short professional introduction about yourself here.</p>
     </section>
-    <section>
-        <h2>Projects</h2>
-        <ul>
+
+    <section id="resume" class="container">
+        <h2>Resume</h2>
+        <ul class="timeline">
             <li>
-                <h3>Project Title</h3>
-                <p>Description of what you did.</p>
+                <h3>Job/Role Title</h3>
+                <span>Year - Year</span>
+                <p>Describe what you did here.</p>
             </li>
-            <!-- Repeat for more projects -->
+            <li>
+                <h3>Education</h3>
+                <span>Year - Year</span>
+                <p>Your degree, institution, and key achievements.</p>
+            </li>
         </ul>
     </section>
-    <section>
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-        <!-- Add your GitHub, LinkedIn, etc. -->
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project Name</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Another Project</h3>
+                <p>Short description of the project.</p>
+            </div>
+        </div>
     </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Your Name</p>
+    </footer>
 </body>
 
 </html>
